@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100svh;
+}
+
+a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  max-height: 100svh;
+}
+
+path {
+  fill: #F93822;
+}
+
+body, svg {
+  background-color:#101820;
+}
